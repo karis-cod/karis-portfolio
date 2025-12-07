@@ -1,0 +1,18 @@
+.home-con{
+  text-align: center;
+  margin-top: 150px;
+}
+.home-p{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;background: transparent;
+  color:  rgb(68, 68, 248);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid rgb(68, 68, 248);
+}

@@ -1,0 +1,30 @@
+.nav-p{
+  color: whitesmoke;
+  font-size: 32px;
+}
+span{
+  color: rgb(68, 68, 248);
+}
+.nav-con{
+ display: flex;
+ justify-content: space-between;
+ gap: 400px;
+ margin-top:15px;
+ margin-bottom: 25px;
+}
+.link{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.li{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.li:hover{
+  color: rgb(68, 68, 248);
+  transition: 0.3s ease-in-out;
+}

@@ -1,0 +1,32 @@
+:root{
+  /* FONT-SIZE */
+  --h1: 80px;
+  --h2: 42px;
+  --h3: 30px;
+  --h4: 22px;
+  --p: 16px
+}
+*{
+  box-sizing: border-box;
+  margin: auto;
+  padding: auto;
+}
+h1,h2,h3,h4,p,s{
+  color: white;
+}
+h1{
+  font-size: var(--h1);
+  font-weight: 400;
+}
+h2{
+  font-size: var(--h2);
+}
+h3{
+  font-size: var(--h3);
+}
+h4{
+  font-size: var(--h4);
+}
+p{
+  font-size: var(--p);
+}
