@@ -1,5 +1,4 @@
-import { Github, ExternalLink } from "lucide-react";
-import './Project.css'
+import { Github, ExternalLink, ArrowRight } from "lucide-react";
 
 function ProjectPage() {
 
@@ -37,15 +36,15 @@ function ProjectPage() {
     </p>
 
     <div className='pro-con'>
-      {projectFunc({ image: '/images/todo.png', tool: 'HTML', tool2: 'CSS', tool3: 'Javascript', name: 'Todo App', text: 'A simple todo app to track your daily activities.',link:'https://karis-cod.github.io/todo-app/' })}
 
       {projectFunc({ image: '/images/litcoin.png', tool: 'HTML', tool2: 'CSS', tool3: 'Javascript', name: 'litcoin ', text: ' A simple litcoin clone app using css and javascript. ',link:'https://karis-cod.github.io/kariscode-bitspire/' })}
 
-      {projectFunc({ image: '/images/bitspire.png', tool: 'react', tool2: 'typescript', tool3: 'css', name: 'bitspire academy', text: 'loreaf you brrrrrr suidgvjhesva zsdvihguVSD sudivgsjhvsd cjhsciugschjvasc uicgscgusc ',link: 'https://karis-cod.github.io/karis-web/' })}
+      {projectFunc({ image: '/images/bitspire.png', tool: 'react', tool2: 'typescript', tool3: 'css', name: 'bitspire academy', text: 'A beautiful tech academy website displaying the function of ',link: 'https://karis-cod.github.io/karis-web/' })}
 
-      {projectFunc({ image: '/images/plumber.png', tool: 'react', tool2: 'typescript', tool3: 'css', name: 'portfolio', text: 'loreaf you brrrrrr suidgvjhesva zsdvihguVSD sudivgsjhvsd cjhsciugschjvasc uicgscgusc ',link: 'https://karis-cod.github.io/kariscod-website/' })}
+      {projectFunc({ image: '/images/plumber.png', tool: 'react', tool2: 'typescript', tool3: 'css', name: 'portfolio', text: 'A beautiful plumber websit showcasing the works of a plumber.',link: 'https://karis-cod.github.io/kariscod-website/' })}
       
     </div>
+    <button className="pro-btn">Check my github<ArrowRight size={20} color="rgb(68, 68, 248)" /></button>
   </>)
 }
 

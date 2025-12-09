@@ -1,5 +1,3 @@
-import './Home.css'
-
 function HeaderPage() {
   return(<div className='home-con'>
       <h1>Hi, I'm Ogu <span>Karis</span></h1>

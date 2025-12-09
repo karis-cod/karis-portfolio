@@ -1,4 +1,3 @@
-import './Skills.css'
 import { useState } from 'react';
 
 
@@ -53,7 +52,7 @@ function SkillsPage() {
   const [activeTab, setActiveTab] = useState<'All' | 'Frontend' | 'Tools'>('All');
 
   return (
-    <div>
+    <div className='skill-con'>
       <h2>My <span>Skills</span></h2>
 
       {/* buttons */}

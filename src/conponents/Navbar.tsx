@@ -5,11 +5,11 @@ function Navbar() {
   return (<div className="nav-con">
     <p className='nav-p'><span>KarisTech</span> Portfolio</p>
     <div className='link'>
-      <Link className='li' to='/'>Home</Link>
-      <Link className='li' to='/about'>About</Link>
-      <Link className='li' to='/skill'>Skills</Link>
-      <Link className='li' to='/project'>Project</Link>
-      <Link className='li' to='/contact'>Contact</Link>
+     <a className='li' href="#home">Home</a>
+      <a className='li' href="#about">About</a>
+      <a className='li' href="#skill">Skill</a>
+      <a className='li' href="#project">Projects</a>
+      <a className='li' href="#contact">Contact</a>
     </div>
   </div>)
 }
