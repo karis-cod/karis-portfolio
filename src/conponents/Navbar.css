@@ -1,23 +1,27 @@
 .nav-p{
   color: whitesmoke;
   font-size: 32px;
+  padding-left: 7%;
 }
 span{
-  color: rgb(68, 68, 248);
+  color: rgb(51, 51, 182);
 }
 .nav-con{
- display: flex;
- justify-content: space-between;
- gap: 400px;
- margin-top:15px;
- margin-bottom: 25px;
+ display: grid;
+ grid-template-columns: 1.4fr 2fr;
+ gap: 20%;
+ z-index: 9;
+background: rgba(255, 255, 255, 0.034);
+  backdrop-filter: blur(3px);
+  box-shadow: 1px 5px 10px 1px rgba(51, 51, 182, 0.205);
+  padding: 15px 20px;
 }
 .link{
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 15%;
 }
 .li{
   color: white;
@@ -25,6 +29,24 @@ span{
   font-size: 18px;
 }
 .li:hover{
-  color: rgb(68, 68, 248);
+  color: rgb(51, 51, 182);
   transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+
+/*  NAVBAR MEDIA */
+@media(max-width:1000px){
+ .nav-p{
+  padding-left: 2%;
+}
+.nav-con{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 16%;
+  padding: 12px 12px;
+}
+.link{
+  gap: 7%;
+}
 }

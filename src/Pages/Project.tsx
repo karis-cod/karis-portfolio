@@ -14,7 +14,6 @@ function ProjectPage() {
 
   function projectFunc({ image, tool, tool2, tool3, name, text, link }: project) {
     return (<div className='project-con'>
-
       <img className="project-img" src={image} alt="project image" />
       <div className='project-dis' >
         <button className="project-btn">{tool}</button>
@@ -36,7 +35,6 @@ function ProjectPage() {
     </p>
 
     <div className='pro-con'>
-
       {projectFunc({ image: '/images/litcoin.png', tool: 'HTML', tool2: 'CSS', tool3: 'Javascript', name: 'litcoin ', text: ' A simple litcoin clone app using css and javascript. ',link:'https://karis-cod.github.io/kariscode-bitspire/' })}
 
       {projectFunc({ image: '/images/bitspire.png', tool: 'react', tool2: 'typescript', tool3: 'css', name: 'bitspire academy', text: 'A beautiful tech academy website displaying the function of ',link: 'https://karis-cod.github.io/karis-web/' })}

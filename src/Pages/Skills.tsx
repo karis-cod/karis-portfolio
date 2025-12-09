@@ -12,7 +12,7 @@ function SkillsPage() {
   const SkillItem: React.FC<SkillProps> = ({ name, percentage }) => {
     return (
       <div className="skill-item">
-        <h4>{name}</h4>
+        <h5>{name}</h5>
 
         <div className="skill-bar-bg">
           <div
