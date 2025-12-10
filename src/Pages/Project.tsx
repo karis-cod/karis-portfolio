@@ -1,6 +1,17 @@
 import { Github, ExternalLink, ArrowRight } from "lucide-react";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 function ProjectPage() {
+
+   useEffect(() => {
+    AOS.init({
+      duration: 800,   // animation speed (ms)
+      once: true,      // animation happens only once
+    });
+  }, []);
 
   interface project {
     image: string;
@@ -13,7 +24,7 @@ function ProjectPage() {
   }
 
   function projectFunc({ image, tool, tool2, tool3, name, text, link }: project) {
-    return (<div className='project-con'>
+    return (<div data-aos="flip-up" className='project-con'>
       <img className="project-img" src={image} alt="project image" />
       <div className='project-dis' >
         <button className="project-btn">{tool}</button>
@@ -29,9 +40,11 @@ function ProjectPage() {
   }
   return (<>
 
-    <h2>Featured <span>project</span></h2>
+    <h2 data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" >Featured <span>project</span></h2>
 
-    <p className="pro-dis-p">Here are some of my resent prijects, A collection of the problems I’ve solved and the ideas I’ve turned into real experiences,    Every project here tells a story—of challenges faced, solutions crafted, and growth achieved.
+    <p data-aos="zoom-in-up" className="pro-dis-p">Here are some of my resent prijects, A collection of the problems I’ve solved and the ideas I’ve turned into real experiences,    Every project here tells a story—of challenges faced, solutions crafted, and growth achieved.
     </p>
 
     <div className='pro-con'>

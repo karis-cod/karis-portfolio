@@ -1,7 +1,17 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
+  
 
 
 function SkillsPage() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,   // animation speed (ms)
+      once: true,      // animation happens only once
+    });
+  }, []);
   // interface for skills
   interface SkillProps {
     name: string;
@@ -11,7 +21,9 @@ function SkillsPage() {
   // Component that displays ONE skill
   const SkillItem: React.FC<SkillProps> = ({ name, percentage }) => {
     return (
-      <div className="skill-item">
+      <div className="skill-item" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
         <h5>{name}</h5>
 
         <div className="skill-bar-bg">
@@ -53,7 +65,9 @@ function SkillsPage() {
 
   return (
     <div className='skill-con'>
-      <h2>My <span>Skills</span></h2>
+      <h2 data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" >My <span>Skills</span></h2>
 
       {/* buttons */}
       <div className='skill-btn'>

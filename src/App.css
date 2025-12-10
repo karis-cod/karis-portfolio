@@ -217,6 +217,17 @@
     margin: 2% 10%;
   }
 }
+@media(max-width:430px) {
+  .skills-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1% 5%;
+  }
+
+  .skill-btn {
+    margin: 2% 10%;
+  }
+}
 
 
 
@@ -315,6 +326,16 @@
     margin: 20px 20%;
     margin-bottom: 60px;
   }
+  .pro-con {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 2% 1%;
+  margin-bottom: -10px;
+}
+.project-con {
+  width: 200px;
+  height: 300px;
+}
 }
 
 
@@ -436,4 +457,35 @@ label {
   .contact-grid {
     grid-template-columns: 1fr;
   }
+}
+
+@media(max-width:550px) {
+  .grid-2-contact {
+  padding: 10px 15px;
+  margin-left: 10%;
+}
+textarea {
+  width: 200px;
+  padding: 5px ;
+  margin-left: 5px;
+}
+
+input {
+  padding: 8px 5px;
+  margin: 1px 10px;
+  width: 200px;
+}
+
+label {
+  margin: 15px 5px;
+  color: white;
+}
+.spav, .spa {
+  all:unset;
+  margin-bottom: 10px;
+  display: block;
+}
+.contact-header-p {
+  padding: 0 1%;
+}
 }

@@ -66,3 +66,15 @@ button:hover{
   transform: scale(1.04);
   transition: 0.5s ;
 }
+
+@media(max-width:450px){
+ :root{
+  /* FONT-SIZE */
+  --h1: 48px;
+  --h2: 32px;
+  --h3: 26px;
+  --h4: 20px;
+  --h5: 15px;
+  --p: 13px
+} 
+}
