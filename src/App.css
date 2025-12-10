@@ -333,8 +333,11 @@
   margin-bottom: -10px;
 }
 .project-con {
-  width: 200px;
+  width: 250px;
   height: 300px;
+}
+.pro-dis-p {
+  margin: 40px 2%;
 }
 }
 
