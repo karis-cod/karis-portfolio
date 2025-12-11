@@ -9,7 +9,10 @@
   margin-left: 20%;
   margin-right: 20%;
 }
-
+.h-b{
+  text-decoration: none;
+  color:rgb(51, 51, 182) ;
+}
 
 /*  HOME PAGE MEDIA */
 @media(max-width:800px) {
@@ -82,6 +85,9 @@
 .grid-2-con {
   margin-bottom: 50px;
   padding: 25px 15px;
+}
+.aa-b{
+  color: rgb(51, 51, 182);
 }
 
 .grid-2-con2 {
@@ -278,6 +284,9 @@
   margin: 20px 43%;
   margin-bottom: 60px;
 }
+.pro-aa{
+  color: rgb(51, 51, 182);
+}
 
 .pro-con {
   display: grid;
@@ -426,6 +435,9 @@ label {
   position: relative;
   bottom: 100px;
 }
+.spa{
+  color: white;
+}
 
 .contact-link-con {
   margin-top: 80px;
@@ -464,11 +476,11 @@ label {
 
 @media(max-width:550px) {
   .grid-2-contact {
-  padding: 10px 15px;
-  margin-left: 10%;
+  padding: 10px 20px;
+  margin-left: 8%;
 }
 textarea {
-  width: 200px;
+  width: 230px;
   padding: 5px ;
   margin-left: 5px;
 }
@@ -476,7 +488,7 @@ textarea {
 input {
   padding: 8px 5px;
   margin: 1px 10px;
-  width: 200px;
+  width: 230px;
 }
 
 label {

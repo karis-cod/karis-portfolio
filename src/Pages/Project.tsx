@@ -55,7 +55,7 @@ function ProjectPage() {
       {projectFunc({ image: '/images/plumber.png', tool: 'react', tool2: 'typescript', tool3: 'css', name: 'portfolio', text: 'A beautiful plumber websit showcasing the works of a plumber.',link: 'https://karis-cod.github.io/kariscod-website/' })}
       
     </div>
-    <button className="pro-btn">Check my github<ArrowRight size={20} color="rgb(68, 68, 248)" /></button>
+    <button className="pro-btn"><a className="pro-aa" href="https://github.com/karis-cod/">Check my github<ArrowRight size={20} color="rgb(68, 68, 248)" /></a></button>
   </>)
 }
 

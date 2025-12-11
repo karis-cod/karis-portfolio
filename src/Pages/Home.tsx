@@ -15,7 +15,7 @@ function HeaderPage() {
       <h1 data-aos="fade-down-right" >Hi, I'm Ogu <span>Karis</span></h1>
       <p data-aos="fade-left" className='home-p'>I build exceptional digital experiences that are fast, responsive, accessible, visually appealing and user-focused interfaces. Let's create something amazing together.
       </p>
-      <button data-aos="fade-up">view my work</button>
+      <button data-aos="fade-up"><a href="#project" className="h-b">view my work</a></button>
   </div>)
 }
 
