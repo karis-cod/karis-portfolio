@@ -8,7 +8,7 @@ import ProjectPage from './Pages/Project'
 import ContactPage from './Pages/Contact'
 
 function App() {
- return(<>
+ return(<div className='container'>
       <Navbar />
       {/* <Routes>
         <Route path='/' element={<HeaderPage />}  />
@@ -32,25 +32,8 @@ function App() {
       <div id='contact'>
         <ContactPage />
       </div>
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        id="bg-video"
-        style={{
-          position: "fixed",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          objectFit: "cover",
-          zIndex: -1,
-        }}
-      >
-        <source src="/videos/bg.mp4" type="video/mp4" />
-      </video>
- </>)
+
+ </div>)
 }
 
 export default App

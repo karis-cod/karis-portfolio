@@ -23,7 +23,7 @@ function Navbar() {
       <p className='nav-p'><span>KarisTech</span> Portfolio</p>
 
        <button className='toggle'  onClick={()=> setOpen(!open)}>
-         {open ? <X size={40} /> : <Menu size={40} /> }
+         {open ? <X size={30} /> : <Menu size={30} /> }
        </button>
 
       <div className='link'>
@@ -42,7 +42,6 @@ function Navbar() {
         <a className='li' onClick={handleToggle} href="#contact">Contact</a>
       </div>
       )}
-      
     </div>
   </section>
   )

@@ -18,7 +18,7 @@ span{
  gap: 20%;
  z-index: 9;
 background: rgba(255, 255, 255, 0.034);
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(5px);
   box-shadow: 5px 5px 10px 1px rgba(51, 51, 182, 0.205);
   padding: 15px 20px;
 }
@@ -69,21 +69,26 @@ background: rgba(255, 255, 255, 0.034);
     flex-direction: column;
     position: relative;
     right: 1px;
-    width: 100%;
-    height: 95vh;
+    max-width: 100%;
+    min-height: 90vh;
   }
   .link{
     display: none;
   }
-  .toggle, .toggle2{
+  .toggle{
     display: inline-block;
     all:unset;
     color:white;
+    position: relative;
+    right: -60%;
   }
   .nav-con{
  display: grid;
  grid-template-columns: 2fr  1fr;
  gap: 5%;
+ backdrop-filter: blur(50px);
+ background: #121212;
+  box-shadow: 5px 5px 10px 1px rgba(51, 51, 182, 0.205);
   padding: 12px 12px;
 }
   .nav-p{
@@ -93,4 +98,32 @@ background: rgba(255, 255, 255, 0.034);
   .li{
     font-size: 28px;
   }
+}
+
+@media(max-width:400px){
+  .link-2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 1px;
+    max-width: 100%;
+    height: 100vmin;
+  }
+  .nav-p{
+    font-size: 18px;
+  }
+  .toggle, .toggle2{
+    display: inline-block;
+    all:unset;
+    color:white;
+    position: relative;
+    right: -50px;
+  }
+  .nav-con{
+ display: grid;
+ grid-template-columns: 2fr  1fr;
+ gap: 1%;
+  padding: 10px;
+  min-width: 50%
+}
 }
