@@ -24,7 +24,7 @@ function ProjectPage() {
   }
 
   function projectFunc({ image, tool, tool2, tool3, name, text, link }: project) {
-    return (<div data-aos="flip-up" className='project-con'>
+    return (<div className='project-con'>
       <img className="project-img" src={image} alt="project image" />
       <div className='project-dis' >
         <button className="project-btn">{tool}</button>

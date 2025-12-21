@@ -21,9 +21,7 @@ function SkillsPage() {
   // Component that displays ONE skill
   const SkillItem: React.FC<SkillProps> = ({ name, percentage }) => {
     return (
-      <div className="skill-item" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+      <div className="skill-item">
         <h5>{name}</h5>
 
         <div className="skill-bar-bg">

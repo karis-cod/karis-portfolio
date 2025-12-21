@@ -17,7 +17,7 @@ function AboutPage() {
      data-aos-duration="2000">About <span>Me</span></h2>
     <div className="grid-con">
       <div data-aos="fade-down-right" className='grid-1'>
-      <h3>Passonate Wed Developer and Tech Creator</h3>
+      <h3>Passonate Web Developer and Tech Creator</h3>
       <p className='grid-1-p' >With over 6 months of experience in web development, I specialize in creating responsive, accesible and performantweb applications using morden technologies.</p>
       <p className='grid-1-p2'>I'm passionate about creating elegant solutions to complex problems, and i'm constantly learning new technologies and techniques to stay at the forefront of the evr-elvolving web landscape.</p>
       <button className="about-btn"><a className="aa-b" href="#contact">Get in Touch</a></button>
